@@ -1,17 +1,13 @@
-{% load static %}
-
 html,
 body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: rgb(228, 225, 225)
-  
+  background-color: rgb(228, 225, 225);
 }
 #container {
   min-height: 100%;
   position: relative;
-  
 }
 
 #body {
