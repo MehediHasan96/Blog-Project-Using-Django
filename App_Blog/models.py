@@ -37,7 +37,7 @@ class Comment(models.Model):
         ordering = ["-comment_date"]
 
     def __str__(self):
-        return self.comment
+        return self.Comment
 
 
 class Likes(models.Model):

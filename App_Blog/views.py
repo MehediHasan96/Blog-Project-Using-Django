@@ -32,6 +32,7 @@ class BlogList(ListView):
     context_object_name = 'blogs'
     model = Blog
     template_name = 'App_Blog/blog_list.html'
+    paginate_by = 2
     #queryset = Blog.objects.order_by("-publish_date")
 
 
